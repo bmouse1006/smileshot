@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "SSMainViewController.h"
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) SSMainViewController* mainController;
+
+@end
 
 @implementation AppDelegate
 
@@ -14,6 +21,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.rootViewController = [[SSMainViewController alloc] initWithNibName:@"SSMainViewController" bundle:nil];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

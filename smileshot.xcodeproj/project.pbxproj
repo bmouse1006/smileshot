@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2224E11717885CD800F7EE78 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2224E11617885CD800F7EE78 /* ImageIO.framework */; };
+		229165221788195500AAFFF2 /* SSVideoCaptureProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 229165211788195500AAFFF2 /* SSVideoCaptureProcessor.m */; };
+		2291652417881D9100AAFFF2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2291652317881D9100AAFFF2 /* CoreImage.framework */; };
 		22A93A871787C4580074E381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A93A861787C4580074E381 /* Foundation.framework */; };
 		22A93A891787C4580074E381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A93A881787C4580074E381 /* CoreGraphics.framework */; };
 		22A93A8B1787C4580074E381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A93A8A1787C4580074E381 /* UIKit.framework */; };
@@ -19,6 +22,11 @@
 		22A93AA21787C4590074E381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A93A8A1787C4580074E381 /* UIKit.framework */; };
 		22A93AAA1787C4590074E381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22A93AA81787C4590074E381 /* InfoPlist.strings */; };
 		22A93AAC1787C4590074E381 /* smileshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A93AAB1787C4590074E381 /* smileshotTests.m */; };
+		22A93ABC1787C8B20074E381 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A93ABB1787C8B20074E381 /* AVFoundation.framework */; };
+		22A93AC0178804140074E381 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A93ABF178804140074E381 /* StoreKit.framework */; };
+		22A93AC417880C080074E381 /* SSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A93AC217880C080074E381 /* SSMainViewController.m */; };
+		22A93AC517880C080074E381 /* SSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A93AC317880C080074E381 /* SSMainViewController.xib */; };
+		22A93ACC17880C740074E381 /* AVImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A93ACB17880C740074E381 /* AVImageUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2224E11617885CD800F7EE78 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		229165201788195500AAFFF2 /* SSVideoCaptureProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSVideoCaptureProcessor.h; sourceTree = "<group>"; };
+		229165211788195500AAFFF2 /* SSVideoCaptureProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSVideoCaptureProcessor.m; sourceTree = "<group>"; };
+		2291652317881D9100AAFFF2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		22A93A831787C4580074E381 /* smileshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smileshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A93A861787C4580074E381 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22A93A881787C4580074E381 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,13 @@
 		22A93AA71787C4590074E381 /* smileshotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "smileshotTests-Info.plist"; sourceTree = "<group>"; };
 		22A93AA91787C4590074E381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22A93AAB1787C4590074E381 /* smileshotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smileshotTests.m; sourceTree = "<group>"; };
+		22A93ABB1787C8B20074E381 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22A93ABF178804140074E381 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		22A93AC117880C080074E381 /* SSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSMainViewController.h; path = UI/SSMainViewController.h; sourceTree = "<group>"; };
+		22A93AC217880C080074E381 /* SSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSMainViewController.m; path = UI/SSMainViewController.m; sourceTree = "<group>"; };
+		22A93AC317880C080074E381 /* SSMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SSMainViewController.xib; path = UI/SSMainViewController.xib; sourceTree = "<group>"; };
+		22A93ACA17880C740074E381 /* AVImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVImageUtil.h; sourceTree = "<group>"; };
+		22A93ACB17880C740074E381 /* AVImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVImageUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2224E11717885CD800F7EE78 /* ImageIO.framework in Frameworks */,
+				2291652417881D9100AAFFF2 /* CoreImage.framework in Frameworks */,
+				22A93AC0178804140074E381 /* StoreKit.framework in Frameworks */,
+				22A93ABC1787C8B20074E381 /* AVFoundation.framework in Frameworks */,
 				22A93A891787C4580074E381 /* CoreGraphics.framework in Frameworks */,
 				22A93A8B1787C4580074E381 /* UIKit.framework in Frameworks */,
 				22A93A871787C4580074E381 /* Foundation.framework in Frameworks */,
@@ -74,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2291651F1788193A00AAFFF2 /* Processors */ = {
+			isa = PBXGroup;
+			children = (
+				229165201788195500AAFFF2 /* SSVideoCaptureProcessor.h */,
+				229165211788195500AAFFF2 /* SSVideoCaptureProcessor.m */,
+			);
+			path = Processors;
+			sourceTree = "<group>";
+		};
 		22A93A7A1787C4580074E381 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +128,10 @@
 		22A93A851787C4580074E381 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2224E11617885CD800F7EE78 /* ImageIO.framework */,
+				2291652317881D9100AAFFF2 /* CoreImage.framework */,
+				22A93ABF178804140074E381 /* StoreKit.framework */,
+				22A93ABB1787C8B20074E381 /* AVFoundation.framework */,
 				22A93A861787C4580074E381 /* Foundation.framework */,
 				22A93A881787C4580074E381 /* CoreGraphics.framework */,
 				22A93A8A1787C4580074E381 /* UIKit.framework */,
@@ -107,6 +143,9 @@
 		22A93A8C1787C4580074E381 /* smileshot */ = {
 			isa = PBXGroup;
 			children = (
+				2291651F1788193A00AAFFF2 /* Processors */,
+				22A93AC917880C3A0074E381 /* helper */,
+				22A93AB51787C67D0074E381 /* UI */,
 				22A93A951787C4580074E381 /* AppDelegate.h */,
 				22A93A961787C4580074E381 /* AppDelegate.m */,
 				22A93A981787C4580074E381 /* Images.xcassets */,
@@ -142,6 +181,25 @@
 				22A93AA81787C4590074E381 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22A93AB51787C67D0074E381 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				22A93AC117880C080074E381 /* SSMainViewController.h */,
+				22A93AC217880C080074E381 /* SSMainViewController.m */,
+				22A93AC317880C080074E381 /* SSMainViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		22A93AC917880C3A0074E381 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				22A93ACA17880C740074E381 /* AVImageUtil.h */,
+				22A93ACB17880C740074E381 /* AVImageUtil.m */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +249,17 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jin Jin";
 				TargetAttributes = {
+					22A93A821787C4580074E381 = {
+						DevelopmentTeam = XGDRKBH2CV;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
 					22A93A9D1787C4590074E381 = {
 						TestTargetID = 22A93A821787C4580074E381;
 					};
@@ -221,6 +290,7 @@
 			files = (
 				22A93A911787C4580074E381 /* InfoPlist.strings in Resources */,
 				22A93A991787C4580074E381 /* Images.xcassets in Resources */,
+				22A93AC517880C080074E381 /* SSMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A93AC417880C080074E381 /* SSMainViewController.m in Sources */,
+				22A93ACC17880C740074E381 /* AVImageUtil.m in Sources */,
 				22A93A971787C4580074E381 /* AppDelegate.m in Sources */,
+				229165221788195500AAFFF2 /* SSVideoCaptureProcessor.m in Sources */,
 				22A93A931787C4580074E381 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,10 +428,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jin Jin (65575TZ23L)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "smileshot/smileshot-Prefix.pch";
 				INFOPLIST_FILE = "smileshot/smileshot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E4F59FD5-1A5B-40A3-96B3-783137BFA6C1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -368,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "smileshot/smileshot-Prefix.pch";
 				INFOPLIST_FILE = "smileshot/smileshot-Info.plist";
@@ -435,6 +511,7 @@
 				22A93AB11787C4590074E381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22A93AB21787C4590074E381 /* Build configuration list for PBXNativeTarget "smileshotTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +520,7 @@
 				22A93AB41787C4590074E381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
